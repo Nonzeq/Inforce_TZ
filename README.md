@@ -29,6 +29,8 @@ cd Inforce_TZ
 
 docker-compose build
 
+docker-compose run web python manage.py createsuperuser - create superuser
+
 docker-compose up -d
 
 
