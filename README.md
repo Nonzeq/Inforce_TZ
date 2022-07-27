@@ -16,14 +16,22 @@ Auth:
 
 
 Docker:
+
 mkdir PROJECT && cd PROJECT
+
 git init
+
 git clone https://github.com/Nonzeq/Inforce_TZ.git
+
 cd core
+
 docker-compose build
+
 docker-compose up -d
 
 
 docker stop $(docker ps -a -q) : for stop all containers
+
 docker rm $(docker ps -a -f status=exited -q) : for delete all containers with status exist
+
 docker system prune -a : for delete all images
