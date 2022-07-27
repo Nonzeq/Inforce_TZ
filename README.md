@@ -1,13 +1,13 @@
 Endpoints:
 
-  http://127.0.0.1:8000/api/v1/menu/?restaurant={restaurant.id} - get menu by restaurant id
-  http://127.0.0.1:8000/api/v1/make_vote/ - cast your vote
-  http://127.0.0.1:8000/api/v1/add_restaurant/ - add restaurant
-  http://127.0.0.1:8000/api/v1/get_vote/ get total votes
+  1)http://127.0.0.1:8000/api/v1/menu/?restaurant={restaurant.id} - get menu by restaurant id
+  2)http://127.0.0.1:8000/api/v1/make_vote/ - cast your vote
+  3)http://127.0.0.1:8000/api/v1/add_restaurant/ - add restaurant
+  4)http://127.0.0.1:8000/api/v1/get_vote/ get total votes
 Auth:
-  http://127.0.0.1:8000/api/v1/register/ - register employee
-  http://127.0.0.1:8000/api/v1/login/ - login
-  http://127.0.0.1:8000/api/v1/token/refresh/ - refresh JWT token
+  5)http://127.0.0.1:8000/api/v1/register/ - register employee
+  6)http://127.0.0.1:8000/api/v1/login/ - login
+  7)http://127.0.0.1:8000/api/v1/token/refresh/ - refresh JWT token
 
 
 Docker:
