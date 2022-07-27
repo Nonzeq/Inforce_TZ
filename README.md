@@ -7,7 +7,9 @@ Endpoints:
 3)http://127.0.0.1:8000/api/v1/add_restaurant/ - add restaurant
 
 4)http://127.0.0.1:8000/api/v1/get_vote/ get total votes
+
 Auth:
+
 5)http://127.0.0.1:8000/api/v1/register/ - register employee
 
 6)http://127.0.0.1:8000/api/v1/login/ - login
