@@ -25,7 +25,7 @@ git init
 
 git clone https://github.com/Nonzeq/Inforce_TZ.git
 
-cd core
+cd Inforce_TZ
 
 docker-compose build
 
